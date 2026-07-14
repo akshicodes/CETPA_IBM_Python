@@ -34,7 +34,7 @@ while True:
 
     if choice == 3:
         print("Exiting the program.")
-        break
+         
     
     match choice:
         case 1:
@@ -44,7 +44,7 @@ while True:
 
             if user_input in df['Day'].values:
                 if user_input == lowest_footfall_day: #monday
-                    suggestions.append(f"Consider closing the store on {lowest_footfall_day} to save costs and also to give employees a break because the store operations are lower than the revenue it brings.")
+                    suggestions.append(f"Consider closing the store on {lowest_footfall_day} to save costs and also to give employees a   because the store operations are lower than the revenue it brings.")
                 
                 elif user_input == highest_footfall_day: #sunday
                     suggestions.append(f"Consider increasing the discount on {highest_footfall_day} to attract more customers and increase sales.")
@@ -61,7 +61,7 @@ while True:
 
         case 2:
             suggestions.clear()  # Clear previous suggestions
-            suggestions.append(f"1. Consider closing the store on {lowest_footfall_day} to save costs and also to give employees a break because the store operations are lower than the revenue it brings.")
+            suggestions.append(f"1. Consider closing the store on {lowest_footfall_day} to save costs and also to give employees a   because the store operations are lower than the revenue it brings.")
             suggestions.append(f"2. Consider increasing the discount on {highest_footfall_day} to attract more customers and increase sales.")
             suggestions.append(f"3. Consider having Limited Time offers during peak hours ({peak_hours}) to attract more customers and increase sales.")
             suggestions.append("4. Consider adding Happy hours or special promotions like Buy 1 Get 1 Free, Combo Deals, Family Packs discounts during non peak hours (Morning, Evening) to attract more customers and increase sales.")

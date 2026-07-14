@@ -107,7 +107,7 @@ while True:
     choice = input("\nDo you want to add another student? (yes/no): ").lower()
 
     if choice != "yes":
-        break
+         
 
 # Create DataFrame for entire class
 class_df = pd.DataFrame(class_report)

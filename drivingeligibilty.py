@@ -9,7 +9,7 @@ while True:
 
         if license_fee == "no":
             print("Please pay the license fee before applying.")
-            break
+             
             
             
         else:
@@ -29,12 +29,12 @@ while True:
             if age >= 18 :
                 driving_license_message = driving_license_eligibility(age)
                 print(driving_license_message)
-                break
+                 
 
             else:
                 learning_permit_message = learning_permit_eligibility(age)
                 print(learning_permit_message)
-                break
+                 
 
    
        
