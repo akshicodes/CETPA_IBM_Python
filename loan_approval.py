@@ -54,8 +54,6 @@ based on salary:
 
 -> If all the above criteria are met, the applicant is eligible for the loan, otherwise they are not eligible.'''
 
-
-
 import pandas as pd
 
 
